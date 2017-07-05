@@ -1,0 +1,2 @@
+variable "repository" { }
+variable "description" { }
