@@ -14,10 +14,13 @@ So the resource is specified in the terraform template so using the command look
 
 `terraform import module.dapper.github_repository.repo Narochno.Dapper`
 
+Note the `dapper` part in the resource id matches the id to be placed in the terraform template
+
 ## Usage
 
 Add a `GITHUB_TOKEN` environment variable 
 
+Initialize modules: `terraform get` (only needed for first time and when adding a new terraform module)
 Preview changes: `terraform plan`
 Commit chagnes: `terraform apply`
 
